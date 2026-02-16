@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información del Viaje – Valle de la Luna</title>
+
+  <!-- FUENTES -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #f4e1c1, #e8c39e);
+      color: #4a3426;
+    }
+
+    /* ENCABEZADO */
+    header {
+      background: linear-gradient(rgba(120,72,32,0.7), rgba(120,72,32,0.6)),
+      url('https://thumbs.dreamstime.com/b/moon-valley-valle-de-la-luna-la-paz-bolivia-96869531.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 56px;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      text-shadow: 3px 3px 10px rgba(0,0,0,0.7);
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+      background: rgba(0,0,0,0.45);
+      padding: 15px;
+      border-radius: 15px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    /* TARJETAS */
+    .card {
+      background: #fff8ef;
+      padding: 35px;
+      margin-bottom: 35px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(120,72,32,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      color: #a85d2b;
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+
+    .item {
+      margin: 12px 0;
+      padding-left: 10px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* BOTÓN */
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 35px;
+      background: #c97a40;
+      color: white;
+      text-decoration: none;
+      border-radius: 35px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #a85d2b;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+      color: #5a3d2b;
+      background: #e3b88a;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 40px;
+      }
+
+      header p {
+        font-size: 16px;
+      }
+
+      .card {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <h1>Información del Viaje</h1>
+    <p>Todo lo que necesitas saber para vivir una experiencia inolvidable en el mágico Valle de la Luna</p>
+  </header>
+
+  <div class="container">
+
+    <!-- HORARIO -->
+    <div class="card">
+      <h2>🌅 Horario del Viaje</h2>
+      <div class="item">07:00 – Desayuno</div>
+      <div class="item">08:00 – Salida hacia el Valle de la Luna</div>
+      <div class="item">10:00 – Llegada y recorrido guiado</div>
+      <div class="item">10:30 – Descanso / Break</div>
+      <div class="item">11:00 – Mirador principal</div>
+      <div class="item">13:00 – Retorno a la ciudad</div>
+      <div class="item">13:30 – Recorido por la Calle de las Brujas y Almuerzo</div>
+      <div class="item">14:30 – Recorido Centro Cultural Museo San Francisco</div>
+      <div class="item">14:30 – Salida hacia el Valle de la Luna</div>
+      <div class="item">16:30 – Recorido Plaza Murillo</div>
+      <div class="item">18:30 – Retorno al hotel</div>
+      <div class="item">19:30 – Llegada al hotel</div>
+    </div>
+
+    <!-- MEDIDAS DE SEGURIDAD -->
+    <div class="card">
+      <h2>🦺 Medidas de Seguridad</h2>
+      <div class="item">✔ Uso obligatorio de gorra o sombrero</div>
+      <div class="item">✔ Aplicar bloqueador solar</div>
+      <div class="item">✔ Seguir siempre al guía</div>
+      <div class="item">✔ No escalar zonas no autorizadas</div>
+      <div class="item">✔ Mantener hidratación constante</div>
+    </div>
+
+    <!-- INCLUYE -->
+    <div class="card">
+      <h2>🎒 ¿Qué Incluye el Viaje?</h2>
+      <div class="item">✔ Transporte ida y vuelta</div>
+      <div class="item">✔ Guía turístico</div>
+      <div class="item">✔ Recoridos extras</div>
+      <div class="item">✔ Snacks - Bebidas</div>
+    </div>
+
+    <!-- RECOMENDACIONES -->
+    <div class="card">
+      <h2>⚠️ Recomendaciones</h2>
+      <div class="item">✔ Llevar lentes de sol</div>
+      <div class="item">✔ Usar calzado cómodo</div>
+      <div class="item">✔ Llevar agua y snacks ligeros</div>
+      <div class="item">✔ Cámara para capturar elo paisaje</div>
+    </div>
+
+    <a href="valleluna.html" class="btn">⬅ Volver a la página principal</a>
+
+  </div>
+
+  <footer>
+    © Turismo Bolivia – Valle de la Luna
+  </footer>
+
+</body>
+</html>
